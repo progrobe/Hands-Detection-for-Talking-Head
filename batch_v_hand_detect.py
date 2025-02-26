@@ -61,7 +61,7 @@ for video_name in video_list:
     text = "hand. fingers. finger. thumb."
     text = text.lower()
 
-    frame_count = 200
+    # frame_count = 200
 
     bs = 8
     skip = args.skip # apply detection every 3 frames to save time

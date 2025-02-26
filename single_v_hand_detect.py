@@ -51,7 +51,7 @@ if args.demo:
 text = "hand. fingers. finger. thumb."
 text = text.lower()
 
-frame_count = 200
+# frame_count = 200
 
 hand_frames = []
 frame_idx = -1
