@@ -23,6 +23,7 @@ parser.add_argument('--text_threshold', type=float, default=0.1)
 parser.add_argument('--skip', type=int, default=3)
 parser.add_argument('--demo', action='store_true')
 parser.add_argument('-d', '--demo_dir', type=str, default='demo')
+parser.add_argument('--batch_size', type=int, default=1)
 
 args = parser.parse_args()
 video_dir = args.video_dir
@@ -63,7 +64,7 @@ for video_name in video_list:
 
     # frame_count = 200
 
-    bs = 8
+    bs = args.batch_size
     skip = args.skip # apply detection every 3 frames to save time
     hand_frames = []
     frame_idx = -1
