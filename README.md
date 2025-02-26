@@ -50,11 +50,11 @@ use `--min_frame_num` to set the minimal frames of output video clips, which mea
 
 To speed up, use `--skip` to apply detection every n frames, instead of every frame. Or you can use  `--batch_size` to set a proper batch size for your GPU.
 
-### about thresholds
+### About detection thresholds
 `--box_threshold` is set to be 0.2 and `--text_threshold` is set to be 0.1 by default. This threshold is capable of detecting almost all hands and fingers even if they are ghost image or only part of them is in the video.
 Since we don't need accurate bbox of fingers and hands, set these thresholds lower is also okay.
 
-## now your model will not produce artifacts of hand
+## Now your model will not produce artifacts of hand
 
 <img src="./assets/no_artifacts.png" alt="image2" style="width:30%;">
 
