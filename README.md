@@ -8,7 +8,7 @@ Model used: grounding DINO [[`Grounding DINO`](https://arxiv.org/abs/2303.05499)
 ## what can this repo do
 When training a talking head video gerenation model, the appearance of hands in training data can cause much trouble, especially when this model is supposed to generating head area only. If the dataset is not clean enough, the model might generate videos with artifact like this:
 
-![image1](./assets/artifact.png)
+<img src="./assets/artifact.png" alt="image1" style="width:30%;">
 
 So, this repo provides code for data cleaning. It can automatically detect and cut out video frames with hands.
 
@@ -56,5 +56,6 @@ Since we don't need accurate bbox of fingers and hands, set these thresholds low
 
 ## now your model will not produce artifacts of hand
 
-![image2](./assets/no_artifacts.png)
-hope this repo can help you
+<img src="./assets/no_artifacts.png" alt="image2" style="width:30%;">
+
+**hope this repo can help you**
