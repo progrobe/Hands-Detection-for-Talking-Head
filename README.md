@@ -1,5 +1,5 @@
 # Hands-Detection-for-Talking-Head
-A Hands Detection Tool for talking head video data cleaning and preprocessing. Also for finger detection in videos.
+A ***Hands Detection Tool*** for talking head video data cleaning and preprocessing. Also for finger detection in videos.
 
 Model used: grounding DINO [[`Grounding DINO`](https://arxiv.org/abs/2303.05499)] 
 
