@@ -4,7 +4,11 @@ A Hands Detection Tool for talking head video data cleaning and preprocessing. A
 Model used: grounding DINO [[`Grounding DINO`](https://arxiv.org/abs/2303.05499)] 
 
 
-https://github.com/user-attachments/assets/35e6009f-2fed-4ff7-ad3d-d81e21fc1fd6
+
+
+https://github.com/user-attachments/assets/d47cb812-aaf9-42aa-be94-73e0919a6a03
+
+
 
 
 ## what can this repo do
