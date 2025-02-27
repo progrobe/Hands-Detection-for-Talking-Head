@@ -3,7 +3,9 @@ A Hands Detection Tool for talking head video data cleaning and preprocessing. A
 
 Model used: grounding DINO [[`Grounding DINO`](https://arxiv.org/abs/2303.05499)] 
 
-[![Video Name](./assets/intro.jpg)](https://github.com/user-attachments/assets/fea50bd8-950b-493c-931e-ce794316e6f2)
+
+https://github.com/user-attachments/assets/35e6009f-2fed-4ff7-ad3d-d81e21fc1fd6
+
 
 ## what can this repo do
 When training a talking head video gerenation model, the appearance of hands in training data can cause much trouble, especially when this model is supposed to generating head area only. If the dataset is not clean enough, the model might generate videos with artifact like this:
