@@ -16,7 +16,7 @@ When training a talking head video gerenation model, the appearance of hands in 
 
 <img src="./assets/artifact.png" alt="image1" style="width:30%;">
 
-So, this repo provides code for data cleaning. It can automatically detect and cut out video frames with hands.
+So, this repo provides code for data cleaning. It can automatically detect and cut out video frames with hands. In other words, it can cut input videos into several hands-free clips.
 
 ## Usage
 
