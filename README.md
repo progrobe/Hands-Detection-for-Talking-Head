@@ -18,6 +18,10 @@ When training a talking head video gerenation model, the appearance of hands in 
 
 So, this repo provides code for data cleaning. It can automatically detect and cut out video frames with hands. In other words, it can cut input videos into several hands-free clips.
 
+Even if a tiny portion of a finger appears, it can be detected and removed.
+
+<img src="./assets/finger_point.png" alt="image2" style="width:30%;">
+
 ## Usage
 
 ### Installation
